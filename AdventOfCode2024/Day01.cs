@@ -6,7 +6,7 @@ public class Day01
   //Pair up the smallest number in the left list with the smallest number in the right list,
   //then the second-smallest left number with the second-smallest right number, and so on.
 
-  static void Main(string[] args)
+  public static void Day01Run()
   { 
     var lines = File.ReadLines("/Users/brevin/Documents/GitHub/AdventOfCode2024/AdventOfCode2024/assets/day01input.txt");
     List<int> firstCol = new List<int>();
